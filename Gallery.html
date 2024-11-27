@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('gallery.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            font-family: cursive;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px; /* Gap between images */
+            padding: 20px;
+            justify-content: flex-start;
+        }
+        .gallery img {
+            width: calc(25% - 35px); /* 4 images per row with some gap */
+            height: 420px; /* Set the desired height */
+            object-fit: cover; /* Ensures the image covers the container without stretching */
+            border: 2px solid whitesmoke;
+            box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+        }
+        h1 {
+            text-align: center;
+            color: rgb(68, 30, 60);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gallery of Jikook</h1>
+    <div class="gallery">
+        <img src="jikook1.jpg">
+        <img src="jikook2.jpg">
+        <img src="jikook3.jpg">
+        <img src="jikook4.jpg">
+        <img src="jikook6.jpg">
+        <img src="jikook7.jpg">
+        <img src="jikook8.jpg">
+        <img src="jikook9.jpg">
+        <img src="jikook10.jpg">
+        <img src="jikook11.jpg">
+        <img src="jikook12.jpg">
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficsmain</title>
+    <style>
+        body {
+            font-family: cursive;
+            margin: 0;
+            padding: 0;
+            background-image: url('gallery.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Vertically space items */
+        }
+        nav {
+            display: flex;
+            flex-direction: column; /* Arrange buttons vertically */
+            align-items: flex-start; /* Align items to the left */
+            margin-top: 50px;
+            padding: 20px;
+            width: 200px; /* Set a fixed width for the nav */
+            margin-left: 100px; /* Add margin to the left for spacing */
+        }
+        nav a {
+            color: rgb(247, 244, 245);
+            padding: 10px 20px;
+            text-decoration: none;
+            text-align: left; /* Align text to the left */
+            margin-bottom: 10px; /* Add margin between buttons */
+            background-color: rgba(71, 7, 41, 0.687);
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            font-family: cursive;
+            font-weight: 500;
+        }
+        nav a:hover {
+            background-color: #eee1f5;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="Gallery.html">Full Length AU</a>
+        <a href="fics.html">Medium Length AU</a>
+        <a href="#services">Drabbles - Fluff</a>
+        <a href="#contact">Drabbles - Angst</a>
+        <a href="Gallery.html">Drabbles - Explicit</a>
+        <a href="fics.html">Drabbles - Mystery</a>
+        <a href="#services">AO3</a>
+        <a href="#services">Prompts</a>
+        <a href="#contact">Edits</a>
+    </nav>
+</body>
+</html>

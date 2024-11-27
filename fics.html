@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fics</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('fics2.jpg'); /* Replace with your background image file */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            font-family: cursive;
+            color: rgb(68, 30, 60); /* Adjust text color for better readability against the background */
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: left; /* Center the containers horizontally */
+            gap: 20px; /* Adjust the gap between the containers */
+            margin: 20px;
+        }
+        .content {
+            text-align: left; /* Align content to the left */
+            padding: 20px;
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0.5); /* Transparent background for the wrapper */
+            max-width: 200px; /* Adjust max-width as per your design */
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: block; /* Ensure the image is displayed as a block element */
+            margin-left: auto; /* Center the image horizontally within its container */
+            margin-right: auto;
+        }
+        .content p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: larger;
+            text-align: center; /* Center align the text */
+            margin-bottom: 10px; /* Adjust margin as needed */
+        }
+        .content a {
+            display: block; /* Display the link as a block to take full width of the container */
+            padding: 10px 20px;
+            font-size: 10px;
+            color: white;
+            background-color: rgb(68, 30, 60); /* Semi-transparent background for the button */
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            width: fit-content;
+            margin-left: auto; /* Center the link horizontally within its container */
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Medium length Fics</h1>
+    <div class="container">
+        <div class="content">
+            <img src="Interhearts.jpg" alt="Jikook Image">
+            <p>Interstellar Hearts</p>
+            <a href="Interstellar Hearts.pdf" target="_blank">Open PDF</a>
+        </div>
+        <div class="content">
+            <img src="Dancetomy.jpg" alt="Another Fic Image">
+            <p>Dance to my Rhythm</p>
+            <a href="Dance to my Rhythm.pdf" target="_blank">Open PDF</a>
+        </div>
+        <div class="content">
+            <img src="ivegotyou.jpg" alt="Another Fic Image">
+            <p>I've got you</p>
+            <a href="I've got You.pdf" target="_blank">Open PDF</a>
+        </div>
+    </div>
+</body>
+</html>
